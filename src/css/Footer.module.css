@@ -1,0 +1,21 @@
+.footer {
+	bottom: 0;
+	position: sticky;
+	width: 100%;
+	background-color: white;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+}
+
+.icons img {
+	margin-right: 1rem;
+}
+
+.icons img:last-child {
+	margin-right: 0;
+}

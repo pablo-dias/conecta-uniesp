@@ -2,9 +2,9 @@ import { Header } from './components/Header'
 import { Post } from './components/Post'
 import Footer from './components/Footer'
 
-import styles from './Home.module.css'
+import styles from './css/Home.module.css'
 
-import './global.css'
+import './css/global.css'
 
 // author: { avatar_url: "",  name: "", role: ""}
 // publishedAt: Date

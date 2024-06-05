@@ -1,5 +1,5 @@
 {
-  "name": "ConectaUniesp",
+  "name": "01-fundamentos-reactjs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -17,6 +17,7 @@
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
+    "@iconify/react": "^5.0.1",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",

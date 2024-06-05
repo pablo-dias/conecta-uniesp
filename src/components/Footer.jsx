@@ -1,4 +1,4 @@
-import style from './Footer.module.css';
+import style from '../css/Footer.module.css';
 import chat from '../assets/chat.svg';
 import ellipse_plus from '../assets/ellipse_plus.svg';
 import home from '../assets/home.svg';
@@ -16,9 +16,9 @@ const Footer = () => {
 				<div className={style.icons}>
 					<img src={home} alt="" onClick={() => navigate('/')} />
 					<img src={search} alt="" />
-					<img style={{ height: "6rem" }} src={ellipse_plus} alt="" />
+					<img style={{height: "6rem"}} src={ellipse_plus} alt="" />
 					<img src={chat} alt="" />
-					<img src={user} alt="" onClick={() => navigate('/perfil')} />
+					<img src={user} alt="" />
 				</div>
 			</div>
 		</>

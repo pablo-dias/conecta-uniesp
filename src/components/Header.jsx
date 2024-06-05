@@ -1,4 +1,4 @@
-import styles from './Header.module.css'
+import styles from '../css/Header.module.css'
 import logoUniesp from '../assets/logoUniesp.svg'
 
 export function Header (){

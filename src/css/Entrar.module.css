@@ -1,0 +1,43 @@
+.container{
+    height: 100vh;
+    background-color: #E40000;
+}
+
+.loginCard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    padding: .6rem;
+}
+
+.buttons{
+    cursor: pointer;
+    border-radius: 15px;
+    width: 15rem;
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+}
+.buttonsRosa{
+    cursor: pointer;
+    color: #fff;
+    border-radius: 15px;
+    width: 15rem;
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+    background-color: #E8A0B1;
+}
+
+.image {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}

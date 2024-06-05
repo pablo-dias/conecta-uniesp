@@ -1,4 +1,4 @@
-import styles from './Avatar.module.css'
+import styles from '../css/Avatar.module.css'
 
 export function Avatar({ hasBorder = true, src }) {
 	return (
